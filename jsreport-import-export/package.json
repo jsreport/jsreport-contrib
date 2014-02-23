@@ -1,0 +1,10 @@
+{
+  "name": "jsreport_import_export",
+  "version": "0.0.0",
+  "description": "jsreport-import-export",
+  "main": "jsreport.config.js",
+  "author": {
+    "name": "honza",
+    "email": ""
+  }
+}
