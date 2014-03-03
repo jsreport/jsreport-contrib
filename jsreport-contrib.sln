@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "jsreport-import-export", "jsreport-import-export/jsreport-import-export.njsproj", "{00EA2CBE-EF4F-4C12-B1BA-EC36F25E7B8C}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "jsreport-import-export", "jsreport-import-export\jsreport-import-export.njsproj", "{00EA2CBE-EF4F-4C12-B1BA-EC36F25E7B8C}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "jsreport-mfr", "jsreport-mfr\jsreport-mfr.njsproj", "{35AA0007-3CE3-45FF-AF24-40CD27559ABE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{00EA2CBE-EF4F-4C12-B1BA-EC36F25E7B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00EA2CBE-EF4F-4C12-B1BA-EC36F25E7B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00EA2CBE-EF4F-4C12-B1BA-EC36F25E7B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35AA0007-3CE3-45FF-AF24-40CD27559ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AA0007-3CE3-45FF-AF24-40CD27559ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AA0007-3CE3-45FF-AF24-40CD27559ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AA0007-3CE3-45FF-AF24-40CD27559ABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
