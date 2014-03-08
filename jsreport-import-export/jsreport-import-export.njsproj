@@ -34,13 +34,16 @@
     <Compile Include="public\js\export.toolbar.view.js" />
     <Compile Include="public\js\import.toolbar.view.js" />
     <Compile Include="public\js\main.js" />
+    <Compile Include="test\import.export.test.js" />
     <Content Include="jsreport.config.js" />
     <Content Include="package.json" />
     <Content Include="public\templates\export-toolbar.html" />
     <Content Include="public\templates\import-toolbar.html" />
     <Content Include="README.md" />
+    <Content Include="test\testTemplate.json" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="test\" />
     <Folder Include="public\" />
     <Folder Include="public\js\" />
     <Folder Include="public\templates\" />

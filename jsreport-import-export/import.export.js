@@ -30,6 +30,10 @@ module.exports = function(reporter, definition) {
                     var file = req.files[f];
 
                     fs.readFile(file.path, function(err, content) {
+                        content = content.toString();
+                        if (content.charAt(0) === '\uFEFF')
+                            content = content.substr(1);
+                     
                         extend(true, template, JSON.parse(content));
                         context.templates.saveChanges().then(function() {
                            

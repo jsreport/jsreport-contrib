@@ -1,10 +1,27 @@
 {
-  "name": "jsreport_mfr",
-  "version": "0.0.0",
-  "description": "jsreport-mfr",
+  "name": "jsreport-mfr",
+  "version": "0.0.1",
+  "description": "jsreport extension allowing to preview mobilefieldreport service requests.",
   "main": "jsreport.config.js",
+  "devDependencies": {
+	"jsreport": "*"
+  },
   "author": {
-    "name": "honza",
-    "email": ""
+    "name": "Jan Blaha",
+    "email": "jan.blaha@hotmail.com"
+  },
+  "keywords": [
+    "report",
+    "business",
+    "javascript"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "licence": "MIT",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsreport/jsreport-contrib.git"
   }
 }

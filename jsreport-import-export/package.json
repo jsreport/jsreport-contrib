@@ -1,10 +1,31 @@
 {
-  "name": "jsreport_import_export",
-  "version": "0.0.0",
-  "description": "jsreport-import-export",
+  "name": "jsreport-import-export",
+  "version": "0.0.2",
+  "description": "jsreport extension allowing to export and import the report template.",
   "main": "jsreport.config.js",
+  "devDependencies": {
+	"jsreport": "*",
+	"node.extend": "*",
+	"mocha": "*",  
+	"should": "*",
+    "supertest": "*"
+  },
   "author": {
-    "name": "honza",
-    "email": ""
+    "name": "Jan Blaha",
+    "email": "jan.blaha@hotmail.com"
+  },
+  "keywords": [
+    "report",
+    "business",
+    "javascript"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "licence": "MIT",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsreport/jsreport-contrib.git"
   }
 }
