@@ -1,6 +1,6 @@
 {
   "name": "jsreport-mfr",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "jsreport extension allowing to preview mobilefieldreport service requests.",
   "main": "jsreport.config.js",
   "devDependencies": {

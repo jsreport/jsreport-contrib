@@ -5,11 +5,11 @@
     request = require("supertest");
 
 
-describeReporting(path.join(__dirname, "../"), ["jsreport-import-export"], function(reporter) {
+describeReporting(path.join(__dirname, "../"), ["express", "templates", "jsreport-import-export"], function(reporter) {
     describe('import-export', function() {
 
         it('export', function(done) {
-            reporter.templates.create({ content: "foo" }).then(function(template) {
+            reporter.templates.create(reporter.context, { content: "foo" }).then(function(template) {
                 request(reporter.options.express.app)
                     .get('/api/import-export/' + template.shortid)
                     .expect(200)
@@ -21,7 +21,7 @@ describeReporting(path.join(__dirname, "../"), ["jsreport-import-export"], funct
         });
 
         it('import - export should equal', function(done) {
-            reporter.templates.create({ content: "foo" }).then(function(template) {
+            reporter.templates.create(reporter.context, { content: "foo" }).then(function(template) {
                 request(reporter.options.express.app)
                     .post('/api/import-export/' + template.shortid)
                     .attach('template', path.join(__dirname, 'testTemplate.json'))
