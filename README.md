@@ -1,5 +1,8 @@
 # jsreport-contrib
 
+> This repository is deprecated, look for individual extensions' repositories.
+
+
 This repository contains variouse [jsreport](jsreport.net) extensions. Creating extensions is the best way how you can contribute to the platform. Don't hasitate and do it.
 
 ##List of public extensions##
