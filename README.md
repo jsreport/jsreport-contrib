@@ -11,13 +11,13 @@ npm install jsreport-import-export
 
 ##List of extensions
 
-[jsreport-import-export](https://github.com/jsreport/jsreport-contrib/tree/master/jsreport-import-export)
+[jsreport-import-export](https://github.com/jsreport/jsreport-contrib/tree/master/jsreport-import-export)  
 Importing and exporting templates into json files.
  
-[jsreport-contrib-mongodb](https://github.com/jsreport/[jsreport-contrib-mongodb) 
+[jsreport-contrib-mongodb](https://github.com/jsreport/[jsreport-contrib-mongodb)   
 Use  [mongodb npm module](https://github.com/mongodb/node-mongodb-native) inside jsreport [custom scripts](http://jsreport.net/learn/scripts) to create reports directly from the nosql database.
 
-[jsreport-contrib-jira](https://github.com/jsreport/jsreport-contrib-jira)
+[jsreport-contrib-jira](https://github.com/jsreport/jsreport-contrib-jira)  
 Use   [jira npm module](https://github.com/steves/node-jira) inside jsreport [custom scripts](http://jsreport.net/learn/scripts) to create reports directly from jira.
 
 
