@@ -1,1 +1,0 @@
-mklink /D "d:\work\jsreport\jsreport\node_modules\jsreport-import-export" "d:\work\jsreport\jsreport-contrib\jsreport-import-export"
