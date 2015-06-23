@@ -23,10 +23,10 @@ Use   [jira npm module](https://github.com/steves/node-jira) inside jsreport [cu
 **[jsreport-ejs](https://github.com/jsreport/jsreport-ejs)**
 EJS templating engine for jsreport
 
-**[jsreport-html-to-text](https://github.com/jsreport/jsreport-html-to-text) **
+**[jsreport-html-to-text](https://github.com/jsreport/jsreport-html-to-text)**
 Recipe converting html into nicely structured text
 
-**[jsreport-wkhtmltopdf](https://github.com/jsreport/jsreport-wkhtmltopdf) **
+**[jsreport-wkhtmltopdf](https://github.com/jsreport/jsreport-wkhtmltopdf)**
 Recipe using wkhtmltopdf to convert html into pdf
 
 
