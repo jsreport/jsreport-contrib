@@ -20,13 +20,13 @@ Use  [mongodb npm module](https://github.com/mongodb/node-mongodb-native) inside
 **[jsreport-contrib-jira](https://github.com/jsreport/jsreport-contrib-jira)**
 Use   [jira npm module](https://github.com/steves/node-jira) inside jsreport [custom scripts](http://jsreport.net/learn/scripts) to create reports directly from jira.
 
-**[jsreport-ejs](https://github.com/jsreport/jsreport-ejs)**
+**[jsreport-ejs](https://github.com/jsreport/jsreport-ejs)**    
 EJS templating engine for jsreport
 
-**[jsreport-html-to-text](https://github.com/jsreport/jsreport-html-to-text)**
+**[jsreport-html-to-text](https://github.com/jsreport/jsreport-html-to-text)**    
 Recipe converting html into nicely structured text
 
-**[jsreport-wkhtmltopdf](https://github.com/jsreport/jsreport-wkhtmltopdf)**
+**[jsreport-wkhtmltopdf](https://github.com/jsreport/jsreport-wkhtmltopdf)**    
 Recipe using wkhtmltopdf to convert html into pdf
 
 
